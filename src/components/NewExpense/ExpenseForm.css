@@ -1,0 +1,28 @@
+form {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1em;
+    border-radius: 12px;
+}
+
+form .input-group label {
+    width: 100%;
+    clear: both;
+    display: block;
+    color: wheat;
+}
+
+form .input-group input {
+    padding: 0.5em;
+    width: 100%;
+    border: transparent solid 1px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+form button {
+    padding: 0.4rem;
+    margin-top: 0.5rem;
+    border: transparent solid 1px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
