@@ -1,28 +1,26 @@
-form {
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 1em;
-    border-radius: 12px;
+.new-expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
 }
 
-form .input-group label {
-    width: 100%;
-    clear: both;
-    display: block;
-    color: wheat;
+.new-expense__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
 }
 
-form .input-group input {
-    padding: 0.5em;
-    width: 100%;
-    border: transparent solid 1px;
-    border-radius: 3px;
-    background-color: rgba(255, 255, 255, 0.7);
+.new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
 }
 
-form button {
-    padding: 0.4rem;
-    margin-top: 0.5rem;
-    border: transparent solid 1px;
-    border-radius: 3px;
-    background-color: rgba(255, 255, 255, 0.8);
+.new-expense__actions {
+  text-align: right;
 }
